@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Order Now</h1>
+    <span class="des">Find us at some address at some place or call us at 05050515-122330</span>
+    <p>Reserve a table, ask for today's special or send us a message:</p>
+    <form action="" id="order">
+        <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="form-input" name="name">
+        </div>
+        <div class="form-group">
+            <label for="people" class="form-label">How many people</label>
+            <input type="text" id="form-input" name="people">
+        </div>
+        <div class="form-group">
+            <label class="form-label">Include</label>
+            <div class="include">
+                <input type="checkbox" id="baby" name="baby" value="Baby">
+                <label for="baby">Baby</label>
+                <input type="checkbox" id="children" name="children" value="Children">
+                <label for="children">Children</label>
+                <input type="checkbox" id="old" name="old" value="Old">
+                <label for="old">Old</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="" class="form-label">Request car parking</label>
+            <div class="request">
+                <input type="radio" id="yes" name="request-parking" value="Yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="request-parking" value="No">
+                <label for="no">No</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="date" class="form-label">Date and Time</label>
+            <input type="text" id="form-input" name="date">
+        </div>
+        <div class="form-group">
+            <label for="requirements" class="form-label">Special requirements</label>
+            <textarea type="text" id="form-input" name="requirements"></textarea>
+        </div>
+
+        <button class="btn" type="submit">Send Order</button>
+    </form>
+</body>
+</html>
